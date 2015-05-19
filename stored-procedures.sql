@@ -1,4 +1,6 @@
 -- 1
+-- Enter a new trail into the database
+
 USE Happy_Trails
 GO
 CREATE PROCEDURE spNewAssociationTrail
@@ -41,6 +43,7 @@ BEGIN
 END
 
 -- 2
+-- Enter a new trail attraction into the database
 
 USE Happy_Trails
 GO
@@ -72,6 +75,7 @@ BEGIN
 END
 
 -- 3
+-- Enter a new hiker into the database
 
 USE Happy_Trails
 GO
@@ -107,6 +111,7 @@ BEGIN
 END
 
 -- 4
+-- Enter a new user review into the database
 
 USE Happy_Trails
 GO
